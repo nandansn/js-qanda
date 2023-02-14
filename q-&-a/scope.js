@@ -1,0 +1,1 @@
+// https://dev.to/lydiahallie/javascript-visualized-scope-chain-13pd

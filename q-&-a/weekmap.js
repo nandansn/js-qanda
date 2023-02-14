@@ -1,0 +1,5 @@
+//  In JavaScript, a WeakMap is a built-in data structure that allows you to store key-value pairs where the keys are weakly held. This means that the keys must be objects and are held in memory only as long as they are referenced elsewhere in the code.
+
+// Unlike regular Map objects, WeakMap objects are not enumerable (i.e., you cannot loop over their contents), and they do not have a size property. Additionally, WeakMap keys must be objects and are not accessible to the code outside of the WeakMap.
+
+// One of the main use cases for WeakMap objects is to store private data associated with an object. Since the keys are weakly held, the private data is automatically garbage collected when the object is no longer needed. This can help prevent memory leaks and improve the performance of your code. 
